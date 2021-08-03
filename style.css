@@ -11,17 +11,17 @@ html {
 .container {
     display: grid;
     height: 800vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: .1fr .5fr .5fr 1fr .2fr 1fr 1fr .2fr;
     grid-template-areas: 
-    'nav nav nav nav'
-    'main main main main'
-    'news news news news'
-    'writer writer writer writer'
-    'mail mail mail mail'
-    'disc disc disc disc'
-    'about about about about'
-    'footer footer footer footer';
+    'nav'
+    'main'
+    'news'
+    'writer'
+    'mail'
+    'disc'
+    'about'
+    'footer';
     grid-gap: .2rem;
     font-size: 4rem;
     color: white;
