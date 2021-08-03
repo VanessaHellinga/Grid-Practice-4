@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: .2rem;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: grid;
+    height: 800vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .1fr .5fr .5fr 1fr .2fr 1fr 1fr .2fr;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'main main main main'
+    'news news news news'
+    'writer writer writer writer'
+    'mail mail mail mail'
+    'disc disc disc disc'
+    'about about about about'
+    'footer footer footer footer';
+    grid-gap: .2rem;
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #172601;
+
+}
+
+.main {
+    grid-area: main;
+    background-color: #A69D6F;
+}
+
+.section-news {
+    grid-area: news;
+    background-color: #D9D4BA;
+}
+
+.section-writers {
+    grid-area: writer;
+    background-color: #73653D;
+}
+
+.section-mailinglist {
+    grid-area: mail;
+    background-color: #A69D6F;
+}
+
+.section-discography {
+    grid-area: disc;
+    background-color: #D9D4BA; 
+}
+
+.section-about {
+    grid-area: about;
+    background-color: #73653D;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #172601;
+}
